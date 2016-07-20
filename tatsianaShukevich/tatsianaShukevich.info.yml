@@ -1,0 +1,13 @@
+name: tatsianaShukevich
+type: theme
+description: This is an example sub theme of Bartik for Drupal 8 school.
+core: 8.x
+
+base theme: bartik
+screenshot: weather_screen.png
+
+libraries-override:
+  bartik/global-styling:
+    css:
+      base:
+         css/base/elements.css:  css/base/elements.css
